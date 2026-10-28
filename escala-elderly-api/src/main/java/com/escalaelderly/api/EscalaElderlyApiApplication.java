@@ -1,4 +1,4 @@
-package escala_elderly_api;
+package com.escalaelderly.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
