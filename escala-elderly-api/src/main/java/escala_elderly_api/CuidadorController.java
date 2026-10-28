@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
+import java.util.ArrayList;
 
 @RestController // 1. Avisa o Spring que este arquivo vai responder chamadas de internet
 @CrossOrigin(origins = "*") // 2. Libera o acesso para o React
@@ -27,4 +28,6 @@ public List<Cuidador> listarCuidadores() {
     lista.add(c3);
 
     // 4. Entrega a caixa cheia
-    return lista;
+        return lista;
+    }   // fecha o método listarCuidadores
+}       // fecha a classe CuidadorController
