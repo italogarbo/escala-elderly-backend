@@ -1,4 +1,4 @@
-package escala_elderly_api;
+package com.escalaelderly.api;
 
 public class Cuidador {
     
